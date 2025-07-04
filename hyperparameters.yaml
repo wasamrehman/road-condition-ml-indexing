@@ -1,0 +1,29 @@
+model:
+  type: RandomForestClassifier
+  n_estimators: 100
+  max_depth: 10
+  min_samples_split: 4
+  random_state: 42
+
+preprocessing:
+  impute_missing: true
+  imputation_strategy: mean
+  scale_features: true
+  encoding_strategy: onehot
+
+training:
+  test_size: 0.2
+  shuffle: true
+
+features:
+  include:
+    - crack_score
+    - rut_depth
+    - pothole_count
+    - surface_age
+    - traffic_load
+    - rainfall_intensity
+
+target:
+  label: condition_category
+  classes: ["Good", "Fair", "Poor"]

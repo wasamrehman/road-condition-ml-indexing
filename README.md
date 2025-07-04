@@ -27,7 +27,7 @@ To automate the classification of road pavement conditions (e.g., Good, Fair, Po
   - Cracks, potholes, raveling, rutting indicators  
   - Environmental and usage factors (e.g., traffic level)
 
-> **Note:** Raw data is anonymized for privacy. You can replace it with your own or synthetic sample.
+> **Note:** Raw data is anonymized for privacy.
 
 ---
 
